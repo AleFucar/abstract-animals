@@ -11,9 +11,11 @@ public class Main {
 		cane.getNome();
 		cane.faiVerso();
 		cane.mangia();
+		cane.faiNuotare();
+		cane.faiVolare();
 		cane.dormi();
 		
-		System.out.println("\n");
+		System.out.println("\n\n");
 		
 		Animale passerotto = new Passerotto();
 		
@@ -23,6 +25,8 @@ public class Main {
 		passerotto.getNome();
 		passerotto.faiVerso();
 		passerotto.mangia();
+		passerotto.faiVolare();
+		passerotto.faiNuotare();
 		passerotto.dormi();
 	}
 }

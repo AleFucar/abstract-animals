@@ -26,4 +26,16 @@ public class Passerotto extends Animale {
 		
 	}
 
+	@Override
+	public void faiVolare() {
+		System.out.println("Sto volando!");
+		
+	}
+
+	@Override
+	public void faiNuotare() {
+		System.out.println("Non posso nuotare");
+		
+	}
+
 }

@@ -1,14 +1,14 @@
 package it.fucarino;
 
- public abstract class Animale {
+ public abstract class Animale implements Volatili, Marini {
 	 
 	 protected String nome;
 	 protected String tipoAnimale;
 	 
 	 public abstract void setNome(String nomeInput);
+	 public abstract void setTipoAnimale(String tipoAnimale);
 	 public abstract void faiVerso();
 	 public abstract void mangia();
-	 public abstract void setTipoAnimale(String tipoAnimale);
 	 
 	 public void getNome() {
 		 System.out.println("Il mio nome è " + nome);

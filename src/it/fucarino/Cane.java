@@ -28,6 +28,18 @@ public class Cane extends Animale{
 		
 	}
 
+	@Override
+	public void faiVolare() {
+		System.out.println("Non posso volare");
+		
+	}
+
+	@Override
+	public void faiNuotare() {
+		System.out.println("Nuoto...");
+		
+	}
+
 
 	
 	
