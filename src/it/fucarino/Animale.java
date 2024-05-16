@@ -1,6 +1,6 @@
 package it.fucarino;
 
- public abstract class Animale implements Volatili, Marini {
+ public abstract class Animale {
 	 
 	 protected String nome;
 	 protected String tipoAnimale;

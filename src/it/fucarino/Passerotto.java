@@ -1,6 +1,6 @@
 package it.fucarino;
 
-public class Passerotto extends Animale {
+public class Passerotto extends Animale implements Volatili {
 
 	@Override
 	public void setNome(String nomeInput) {
@@ -29,12 +29,6 @@ public class Passerotto extends Animale {
 	@Override
 	public void faiVolare() {
 		System.out.println("Sto volando!");
-		
-	}
-
-	@Override
-	public void faiNuotare() {
-		System.out.println("Non posso nuotare");
 		
 	}
 

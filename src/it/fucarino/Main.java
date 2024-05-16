@@ -3,7 +3,7 @@ package it.fucarino;
 public class Main {
 	public static void main(String[] args) {
 		
-		Animale cane =  new Cane();
+		Cane cane =  new Cane();
 		
 		cane.setTipoAnimale("Cane");
 		cane.getTipoAnimale();
@@ -11,13 +11,12 @@ public class Main {
 		cane.getNome();
 		cane.faiVerso();
 		cane.mangia();
-		cane.faiNuotare();
-		cane.faiVolare();
+		faiNuotare(cane);
 		cane.dormi();
 		
 		System.out.println("\n\n");
 		
-		Animale passerotto = new Passerotto();
+		Passerotto passerotto = new Passerotto();
 		
 		
 		passerotto.setTipoAnimale("Passerotto");
@@ -26,7 +25,16 @@ public class Main {
 		passerotto.faiVerso();
 		passerotto.mangia();
 		passerotto.faiVolare();
-		passerotto.faiNuotare();
 		passerotto.dormi();
 	}
+	
+	
+	public static void faiNuotare(Marini animale) {
+		animale.faiNuotare();
+	}
+	
+	public static void faiVolare(Volatili animale) {
+		animale.faiVolare();
+	}
+	
 }

@@ -1,6 +1,6 @@
 package it.fucarino;
 
-public class Cane extends Animale{
+public class Cane extends Animale implements Marini{
 	
 	
 	@Override
@@ -29,22 +29,10 @@ public class Cane extends Animale{
 	}
 
 	@Override
-	public void faiVolare() {
-		System.out.println("Non posso volare");
-		
-	}
-
-	@Override
 	public void faiNuotare() {
-		System.out.println("Nuoto...");
+		System.out.println("Sto nuotando...");
 		
 	}
-
-
-	
-	
-	
-
 	
 }
 
